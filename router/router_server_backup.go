@@ -148,7 +148,7 @@ func postServerRestoreBackup(c *gin.Context) {
 		return
 	}
 	// Don't allow content types that we know are going to give us problems.
-	if res.Header.Get("Content-Type") == "" || !strings.Contains("application/x-gzip application/gzip", res.Header.Get("Content-Type")) {
+	if res.Header.Get("Content-Type") == "" || !strings.Contains("application/x-gzip application/gzip application/octet-stream", res.Header.Get("Content-Type")) {
 		_ = res.Body.Close()
 		c.AbortWithStatusJSON(http.StatusBadRequest, gin.H{
 			"error": "The provided backup link is not a supported content type. \"" + res.Header.Get("Content-Type") + "\" is not application/x-gzip.",
