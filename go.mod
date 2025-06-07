@@ -16,7 +16,7 @@ require (
 	github.com/buger/jsonparser v1.1.1
 	github.com/cenkalti/backoff/v4 v4.3.0
 	github.com/creasty/defaults v1.8.0
-	github.com/docker/docker v28.0.4+incompatible
+	github.com/docker/docker v28.2.2+incompatible
 	github.com/docker/go-connections v0.5.0
 	github.com/fatih/color v1.18.0
 	github.com/franela/goblin v0.0.0-20211003143422-0a4f594942bf
@@ -44,11 +44,11 @@ require (
 	github.com/stretchr/testify v1.10.0
 	golang.org/x/crypto v0.37.0
 	golang.org/x/sync v0.13.0
-	golang.org/x/sys v0.32.0
+	golang.org/x/sys v0.33.0
 	gopkg.in/ini.v1 v1.67.0
 	gopkg.in/yaml.v2 v2.4.0
 	gopkg.in/yaml.v3 v3.0.1
-	gorm.io/gorm v1.25.12
+	gorm.io/gorm v1.26.0
 )
 
 require (
@@ -62,6 +62,8 @@ require (
 	github.com/bytedance/sonic v1.13.1 // indirect
 	github.com/bytedance/sonic/loader v0.2.4 // indirect
 	github.com/cloudwego/base64x v0.1.5 // indirect
+	github.com/containerd/errdefs v0.3.0 // indirect
+	github.com/containerd/errdefs/pkg v0.3.0 // indirect
 	github.com/containerd/log v0.1.0 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/distribution/reference v0.6.0 // indirect
@@ -95,6 +97,7 @@ require (
 	github.com/mgutz/ansi v0.0.0-20200706080929-d51e80ef957d // indirect
 	github.com/minio/minlz v1.0.0 // indirect
 	github.com/moby/docker-image-spec v1.3.1 // indirect
+	github.com/moby/sys/atomicwriter v0.1.0 // indirect
 	github.com/moby/term v0.0.0-20220808134915-39b0c02b01ae // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.2 // indirect
